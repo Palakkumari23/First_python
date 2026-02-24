@@ -12,9 +12,21 @@
 # x=int(input("enter a number"))
 # for i in range(6,x,2):
 #  print (i)
-x=int(input("enter a number:"))
-k=1
-for i in range(1,x+1,1):
-    k=k*i
-print(k)
+# x=int(input("enter a number:"))
+# k=1
+# for i in range(1,x+1,1):
+#     k=k*i
+# print(k)
+# x=int(input("enter n"))
+# for i in range(1,x+1,1):
+#     print("x"*i)
+# x=int(input("enter n"))
+# for i in range(x,0,-1):
+#     print("x"*i)
+x= int(input("enter n"))
+for i in range(1,x):
+    for j in range(1,i+1):
+        print(j,end="")
+    print()
+
      
