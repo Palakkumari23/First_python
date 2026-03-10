@@ -1,0 +1,16 @@
+my_string="python is a programming language"
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.capitalize())
+print(my_string.title())
+print(    my_string.strip()    )  
+print(my_string.split())
+my_name="python"
+print(my_name.find("p"))
+print(my_string.startswith("programming"))
+print(my_string.startswith("python"))
+print(my_string.endswith("Language"))
+print(my_string.endswith("language"))
+print(my_name.index("n"))
+print(my_name.count("y"))
+print(my_string.replace("python","java"))
