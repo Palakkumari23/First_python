@@ -1,0 +1,10 @@
+file = open("student.txt", "w")
+file.write("Name: Palak\n")
+file.write("Course: BCA\n")
+file.write("Semester: 3rd")
+file.close()
+
+file = open("student.txt", "r")
+data = file.read()
+print(data)
+file.close()
